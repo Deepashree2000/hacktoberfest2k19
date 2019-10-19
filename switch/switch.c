@@ -1,5 +1,4 @@
 #include<conio.h>
-#include <stdio.h>
 #include<stdio.h>
 
 
@@ -24,9 +23,10 @@ int main()
             break;
         }
         case 2:{
-            int res;
+            int res,res1;
             res=decr(num);
-            printf("the decremented number is %d\n",res);
+            res1=decr(res);
+            printf("the decremented number is %d\n",res1);
             break;
             
         }
